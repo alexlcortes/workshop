@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+	background-image: url("../img/BackgroundText.jpg");
+}
+
+a {
+	color: #69f0ae;
+}
+
+.name-padding {
+	padding-left: 15px;
+}
+
+.g-font {
+	margin-top: 10px;
+	color: #69f0ae;
+	font-family: 'Kanit', sans-serif;
+}
+
+.g-font-p {
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.hello {
+	font-size: 150px;
+}
+
+.row {
+	margin-right: 0px;
+}
+
+.c-body {
+}
+
+.hero-box {
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+
+.bio-body {
+	margin-bottom: 50px;
+}
+
+.carousel-body {
+	margin-bottom: 85px;
+}
+
+.footer{
+	height: 35px;
+	font-family: 'Bungee', cursive;
+	color: #69f0ae;
+	background: none;
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+  .hello {
+    font-size: 100px;
+  }
+}
